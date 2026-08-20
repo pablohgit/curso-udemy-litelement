@@ -14,7 +14,9 @@
   "author": "Pablo Hernandez <pablohernandez@outlook.com>",
   "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "vite"
+  },
   "dependencies": {
     "lit": "^3.3.3",
     "lit-element": "^4.2.2"
