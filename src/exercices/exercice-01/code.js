@@ -2,7 +2,7 @@ import { html, LitElement } from "lit";
 
 class Exercice01 extends LitElement {
   render() {
-    return html` <h1>Exercice 01</h1> `;
+    return html` <h1>Conectar primer componente de litElement</h1> `;
   }
 }
 
