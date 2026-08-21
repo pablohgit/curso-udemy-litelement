@@ -1,7 +1,7 @@
 import { html, LitElement } from "lit";
 
 class Exercice05 extends LitElement {
-  static get props() {
+  static get properties() {
     return {
       article: { type: Object },
       prop1: { type: String },

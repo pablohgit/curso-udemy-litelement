@@ -1,7 +1,7 @@
 import { html, LitElement } from "lit";
 
 class Exercice03 extends LitElement {
-  static get props() {
+  static get properties() {
     return {
       name: { type: String },
       id: { type: String },
@@ -16,7 +16,7 @@ class Exercice03 extends LitElement {
 
   render() {
     return html`
-      <h1>Props en litelement por enlaces</h1>
+      <h1>properties en litelement por enlaces</h1>
 
       <!-- Bind por enlace de texto -->
       <p>Nombre: ${this.name}</p>

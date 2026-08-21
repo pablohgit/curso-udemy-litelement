@@ -1,7 +1,7 @@
 import { html, LitElement } from "lit";
 
 class Exercice11 extends LitElement {
-  static get props() {
+  static get properties() {
     return {
       countries: { type: Array },
     };

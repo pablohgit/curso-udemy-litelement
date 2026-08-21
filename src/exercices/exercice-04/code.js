@@ -1,7 +1,7 @@
 import { html, LitElement } from "lit";
 
 class Exercice04 extends LitElement {
-  static get props() {
+  static get properties() {
     return {
       name: { type: String },
       age: { type: Number },
